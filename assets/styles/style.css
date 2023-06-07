@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'RobotoRegular';
+}
+
+header {
+  background: right / contain no-repeat url('../img/ilustracion_people.png'),
+    right / contain no-repeat url('../img/ilustracion1.png');
+  height: 40.625rem;
+  margin-bottom: 12.5rem;
+}
+
+.header__top__left {
+  padding: 3.125rem 5rem;
+}
+
+.header__top__left h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'RobotoBold';
+}
+
+.header__top__left p {
+  font-size: 0.75rem;
+}
+
+.header__bottom__left {
+  width: 28.125rem;
+  margin-left: 9.375rem;
+  margin-top: 16.875rem;
+}
+
+.header__bottom__left h1 {
+  font-size: 3.375rem;
+  font-weight: 600;
+  font-family: 'RobotoBold';
+  line-height: 4.0625rem;
+}
+
+.header__bottom__left p {
+  line-height: 1.5625rem;
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin-bottom: 6.25rem;
+}
+
+header a {
+  color: #ff3571;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  margin-left: 9.375rem;
+}
+
+.gallery__container {
+  background: center / cover no-repeat url('../img/images.jpg');
+  height: 75vh;
+  margin-bottom: 18.75rem;
+}
+
+.main__content {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info__container div:nth-of-type(1),
+h2 {
+  font-size: 2.375rem;
+  flex-shrink: 2;
+  flex-basis: 13.75rem;
+}
+
+.info__container p {
+  flex-shrink: 1;
+  font-size: 1.25rem;
+  flex-basis: 42.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.headline__info {
+  text-align: center;
+  width: 50rem;
+  text-align: left;
+  padding-left: 10%;
+  margin-bottom: 200px;
+}
+
+.headline__info h2 {
+  font-family: 'RobototBold';
+  font-size: 2.375rem;
+  font-weight: 600;
+}
+
+.content__mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.content__mid__headline {
+  font-size: 1.25rem;
+  font-family: 'RobotoBold';
+  font-weight: 700;
+}
+
+.content__mid__text {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+.content__mid article {
+  width: 27%;
+}
+
+.container__mid__icons {
+}
