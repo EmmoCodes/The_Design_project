@@ -78,7 +78,7 @@ header a {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
 }
 
 .info__container {
@@ -107,7 +107,7 @@ h2 {
   width: 50rem;
   text-align: left;
   padding-left: 10%;
-  margin-bottom: 200px;
+  margin-bottom: 12.5rem;
 }
 
 .headline__info h2 {
@@ -118,13 +118,12 @@ h2 {
 
 .content__mid {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   width: 100%;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  position: relative;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 }
 
 .content__mid__headline {
@@ -136,11 +135,170 @@ h2 {
 .content__mid__text {
   font-size: 0.875rem;
   line-height: 1.75rem;
+  padding-left: 3.5625rem;
 }
 
 .content__mid article {
   width: 27%;
 }
 
-.container__mid__icons {
+.container__mid__icons1 {
+  background: center/ cover no-repeat url('../img/title02.svg');
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.container__mid__icons2 {
+  background: center/ cover no-repeat url('../img/title04.svg');
+  width: 32px;
+  height: 2rem;
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.container__mid__icons3 {
+  background: center/ cover no-repeat url('../img/title01.svg');
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.container__mid__icons4 {
+  background: center/ cover no-repeat url('../img/title03.svg');
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.problem__headline {
+  text-align: center;
+  margin: 150px auto;
+
+  width: 470px;
+}
+
+.problem__headline h2 {
+  font-size: 1.75rem;
+  font-family: 'RobotoBold';
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.problem__headline p {
+  line-height: 20px;
+}
+
+.image__left1 {
+  background: left / contain no-repeat url('../img/step01.png');
+  height: 410px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.image__left__text {
+  width: 670px;
+  margin-left: auto;
+  margin-right: 90px;
+}
+
+.image__left__text h4 {
+  color: #dddddd;
+  font-size: 3.25rem;
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.image__left__icon1 {
+  background: center / contain no-repeat url('../img/step01.svg');
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image__left__text h2 {
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.image__left__text p {
+  line-height: 28px;
+}
+
+.image__left2 {
+  background: left / contain no-repeat url('../img/step03.png');
+  height: 410px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.image__left__icon2 {
+  background: center / contain no-repeat url('../img/step03.svg');
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.image__right1 {
+  background: right / contain no-repeat url('../img/step02.png');
+  height: 410px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.image__right__text {
+  width: 670px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+
+.image__right__text h4 {
+  color: #dddddd;
+  font-size: 3.25rem;
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.image__right__icon1 {
+  background: center / contain no-repeat url('../img/step02.svg');
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image__right__text h2 {
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.image__right__text p {
+  line-height: 28px;
+}
+
+.image__right2 {
+  background: right / contain no-repeat url('../img/step04.png');
+  height: 410px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.image__right__icon2 {
+  background: center / contain no-repeat url('../img/step04.svg');
+  height: 2.5rem;
+  width: 2.5rem;
 }
